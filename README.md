@@ -1,6 +1,8 @@
 # snowflake-water-quality-ml
 Snowflake-based data engineering and machine learning for inferring water quality metrics (Total Alkalinity, Electrical Conductance, and Dissolved Reactive Phosphorus) using point-in-time environmental and earth observation features.
 
+This project was developed in the context of the EY AI & Data Challenge 2026 Optimizing Clean Water Supply and is designed to demonstrate production-grade feature engineering, spatial validation, and in-warehouse ML workflows.
+
 ---
 
 ## Problem Framing
