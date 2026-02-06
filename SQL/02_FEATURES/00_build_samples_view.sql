@@ -1,0 +1,12 @@
+-- -----------------------------------------------------------------------------
+-- FEATURES.V_SAMPLES
+-- Grain: 1 row per (LATITUDE, LONGITUDE, SAMPLE_DATE)
+-- Anchor: RAW.LANDING_WATER_QUALITY_TRAINING & RAW.LANDING_WATER_QUALITY_VALIDATION
+-- -----------------------------------------------------------------------------
+
+CREATE OR REPLACE VIEW WATER_QUALITY.FEATURES.V_SAMPLES AS
+SElECT *
+FROM WATER_QUALITY.RAW.LANDING_WATER_QUALITY_TRAINING
+UNION
+SELECT *
+FROM WATER_QUALITY.RAW.LANDING_WATER_QUALITY_VALIDATION;
