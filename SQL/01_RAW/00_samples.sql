@@ -6,7 +6,7 @@
 USE DATABASE WATER_QUALITY;
 USE SCHEMA RAW;
 
--- LANDING water quality training targets (to parse date)
+-- LANDING water quality training targets
 CREATE OR REPLACE TABLE RAW.LANDING_WATER_QUALITY_TRAINING (
   LATITUDE                          FLOAT,
   LONGITUDE                         FLOAT,
